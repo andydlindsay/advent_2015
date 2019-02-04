@@ -2,6 +2,7 @@ const { assert, expect } = require('chai');
 const Reindeer = require('../classes/reindeer');
 const Race = require('../classes/race');
 const solution1 = require('../p1');
+const solution2 = require('../p2');
 
 describe('Tests for day 14 problem', () => {
 
@@ -41,6 +42,22 @@ describe('Tests for day 14 problem', () => {
             const input = 2503;
             const output = 2640;
             assert.equal(solution1(input), output);
+        });
+
+    });
+
+    describe('Solution 2 tests', () => {
+
+        it('returns 520 given 1000', () => {
+            const input = 1000;
+            const output = 520;
+            assert.equal(solution2(input), output);
+        });
+
+        it('returns 1102 given 2503', () => {
+            const input = 2503;
+            const output = 1102;
+            assert.equal(solution2(input), output);
         });
 
     });

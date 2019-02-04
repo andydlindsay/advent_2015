@@ -7,6 +7,7 @@ class Reindeer {
         this.distanceMoved = 0;
         this.currentState = 'flying';
         this.timer = 0;
+        this.points = 0;
     }
 
     update() {
