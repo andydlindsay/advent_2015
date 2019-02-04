@@ -1,0 +1,19 @@
+{
+  "name": "advent_2015",
+  "version": "1.0.0",
+  "description": "My solutions to the Advent of Code 2015 problems.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andydlindsay/advent_2015.git"
+  },
+  "keywords": [],
+  "author": "Andy Lindsay <andydlindsay@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andydlindsay/advent_2015/issues"
+  },
+  "homepage": "https://github.com/andydlindsay/advent_2015#readme",
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
+}
